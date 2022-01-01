@@ -137,7 +137,7 @@ MonoBehaviour:
   riseTimeReset: 0
   lerp: 0
   isEnemy: 1
-  renderer: {fileID: 0}
+  renderer: {fileID: 7660104304716823810}
   mananger: {fileID: 639083415160850143, guid: 688804f9be17ae04fa16fd807999a595, type: 3}
 --- !u!65 &7660104304716823823
 BoxCollider:
@@ -165,4 +165,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
-  self: {fileID: 7660104304716823812}
+  aliveSprite: {fileID: 7660104304716823810}

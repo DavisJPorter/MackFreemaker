@@ -131,7 +131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 20
-  m_spriteRenderer: {fileID: 3099417204957332955}
+  aliveSprite: {fileID: 3099417204957332955}
 --- !u!114 &7085615213652159985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,5 +164,5 @@ MonoBehaviour:
   riseTimeReset: 0
   lerp: 0
   isEnemy: 1
-  renderer: {fileID: 0}
+  renderer: {fileID: 3099417204957332955}
   mananger: {fileID: 639083415160850143, guid: 688804f9be17ae04fa16fd807999a595, type: 3}
